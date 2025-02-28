@@ -2,3 +2,20 @@ body{
     background-color: beige;
     padding: 20px;
 }
+#photo-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 15px;
+    padding: 20px;
+}
+.photo {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
